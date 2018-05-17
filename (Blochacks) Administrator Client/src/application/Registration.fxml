@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="873.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegistrationController">
+   <children>
+      <Button fx:id="submitButton" layoutX="204.0" layoutY="809.0" mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="222.0" text="Submit" />
+      <TextField fx:id="firstName" layoutX="172.0" layoutY="65.0" prefHeight="27.0" prefWidth="305.0" promptText="First Name" />
+      <TextField fx:id="lastName" layoutX="172.0" layoutY="104.0" prefHeight="27.0" prefWidth="305.0" promptText="Last Name" />
+      <Label fx:id="idLabel" layoutX="177.0" layoutY="99.0" />
+      <Label fx:id="portLabel" layoutX="177.0" layoutY="174.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="50.0" layoutY="69.0" prefHeight="17.0" prefWidth="106.0" text="First Name:" />
+      <Label alignment="CENTER_RIGHT" layoutX="50.0" layoutY="108.0" prefHeight="17.0" prefWidth="106.0" text="Last Name:" />
+      <Label alignment="CENTER_RIGHT" layoutX="264.0" layoutY="679.0" prefHeight="17.0" prefWidth="65.0" text="Finger print" />
+      <Label alignment="CENTER_RIGHT" layoutX="50.0" layoutY="143.0" prefHeight="17.0" prefWidth="106.0" text="Passeport:" />
+      <Label alignment="CENTER_RIGHT" layoutX="61.0" layoutY="178.0" prefHeight="17.0" prefWidth="85.0" text="Gender:" />
+      <Label alignment="CENTER_RIGHT" layoutX="50.0" layoutY="214.0" prefHeight="17.0" prefWidth="100.0" text="Address:" />
+      <TextField fx:id="passport" layoutX="172.0" layoutY="139.0" prefHeight="27.0" prefWidth="305.0" promptText="Passeport" />
+      <TextField fx:id="gender" layoutX="172.0" layoutY="174.0" prefHeight="27.0" prefWidth="305.0" promptText="Gender" />
+      <TextField fx:id="address" layoutX="172.0" layoutY="210.0" prefHeight="27.0" prefWidth="305.0" promptText="Adress" />
+      <Label alignment="CENTER_RIGHT" layoutX="50.0" layoutY="252.0" prefHeight="17.0" prefWidth="100.0" text="Nationality:" />
+      <TextField fx:id="nationality" layoutX="172.0" layoutY="248.0" prefHeight="27.0" prefWidth="305.0" promptText="Nationality" />
+      <Label alignment="CENTER_RIGHT" layoutX="83.0" layoutY="289.0" prefHeight="17.0" prefWidth="65.0" text="Eye color:" />
+      <TextField fx:id="eye" layoutX="172.0" layoutY="284.0" prefHeight="27.0" prefWidth="305.0" promptText="Eye color" />
+      <Label alignment="CENTER_RIGHT" layoutX="78.0" layoutY="326.0" prefHeight="17.0" prefWidth="65.0" text="Height:" />
+      <TextField fx:id="height" layoutX="172.0" layoutY="321.0" prefHeight="27.0" prefWidth="305.0" promptText="Height in cm" />
+      <Label alignment="CENTER_RIGHT" layoutX="3.0" layoutY="551.0" prefHeight="17.0" prefWidth="150.0" text="Additional informations:" />
+      <TextArea fx:id="addInfo" layoutX="175.0" layoutY="539.0" prefHeight="140.0" prefWidth="256.0" />
+      <Label alignment="CENTER" layoutX="198.0" layoutY="14.0" prefHeight="40.0" prefWidth="204.0" text="Registration Form">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="426.0" text="Refugee Center:" />
+      <Label alignment="CENTER_RIGHT" layoutX="46.0" layoutY="358.0" prefHeight="17.0" prefWidth="116.0" text="Phone Number:" />
+      <TextField fx:id="phone" layoutX="174.0" layoutY="353.0" prefHeight="27.0" prefWidth="305.0" promptText="Phone number" />
+      <Label alignment="CENTER_RIGHT" layoutX="58.0" layoutY="392.0" prefHeight="17.0" prefWidth="85.0" text="E-mail:" />
+      <TextField fx:id="mail" layoutX="172.0" layoutY="387.0" prefHeight="27.0" prefWidth="305.0" promptText="E-mail address" />
+      <Label alignment="CENTER_RIGHT" layoutX="25.0" layoutY="760.0" prefHeight="17.0" prefWidth="116.0" text="Verbal Password:" />
+      <TextField fx:id="password" layoutX="180.0" layoutY="755.0" prefHeight="27.0" prefWidth="296.0" promptText="pw" />
+      <ChoiceBox layoutX="-163.0" layoutY="236.0" prefWidth="150.0" />
+      <TextField fx:id="center" layoutX="172.0" layoutY="421.0" prefHeight="27.0" prefWidth="305.0" promptText="center" />
+      <Label layoutX="97.0" layoutY="466.0" text="Age:" />
+      <TextField fx:id="age" layoutX="172.0" layoutY="461.0" prefHeight="27.0" prefWidth="305.0" promptText="age" />
+      <Label layoutX="64.0" layoutY="502.0" text="Serial Number" />
+      <TextField fx:id="serialNumber" layoutX="174.0" layoutY="497.0" prefHeight="27.0" prefWidth="305.0" promptText="serial Number" />
+   </children>
+</AnchorPane>

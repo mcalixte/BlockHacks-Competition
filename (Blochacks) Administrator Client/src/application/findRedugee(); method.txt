@@ -1,0 +1,28 @@
+public Refugee findRefugee(String name, String last_name ) {
+
+		for(int i = 0; i < ref.size(); i++) {
+
+			if(ref.get(i).getFirst_name().equals(name) && ref.get(i).getLast_name().equals(last_name)) {
+			}	
+			return ref.get(i);
+		}
+		return null;
+	}
+	public Refugee findRefugee(String getVerbal_pass ) {
+
+		for(int i = 0; i < ref.size(); i++) {
+			if(ref.get(i).getVerbal_pass().equals(getVerbal_pass)) {
+			}
+			return ref.get(i);
+		}
+		return null;
+	}
+	public Refugee findRefugee(long phone) {
+
+		for(int i = 0; i < ref.size(); i++) {
+			if(ref.get(i).getPhone() == phone ) {
+			}
+			return ref.get(i);
+		}
+		return null;	
+	}
